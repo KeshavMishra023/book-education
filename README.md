@@ -38,7 +38,7 @@ This project is a **fully responsive Book Education Template** built using **HTM
 3. Open `index.html` in your browser.
 
 ##  Screenshots
-This is a home page image url => https://github.com/user-attachments/assets/4526ebe6-da90-4347-951e-10c5235b9d9a.
+This is a home page image url => https://github.com/user-attachments/assets/4526ebe6-da90-4347-951e-10c5235b9d9a. <br>
 This is a About Page image url => https://github.com/user-attachments/assets/71b5c9c0-906a-42dd-a09c-967b7bcff4cd.
 This is a Course page image url => https://github.com/user-attachments/assets/87862bec-1135-41c9-ae6f-38a3e70e5eab.
 This is a Blog Page image url => https://github.com/user-attachments/assets/e93ee7da-5bba-4303-9dab-900e75a206ae.
