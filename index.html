@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer-Courses</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/19e0b77cc9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="main-container d-flex justify-content-between align-items-center header">
+        <a href="index.html"><img src="./images/logo.webp" alt="logo"/></a>
+        <!-- <input type="checkbox" id="toggle-btn" class="toggle-btn-checkbox">
+        <label for="toggle-btn" class="toggle-btn"><i class="fa-solid fa-sliders"></i></label> -->
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home     </a></li>
+                <li><a href="about.html">About Us </a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="blog.html">Blogs     </a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="side-nav">
+                <li class="side-nav-a d-flex">Categories</li>
+                <li>
+                    <input type="text" placeholder="Search Here" class="search-input" >
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </li>
+            </div>
+             
+        </nav>
+        <div class="toogle-btn">
+            <button onclick="toggleSidebar()"><i class="fa-solid fa-sliders"></i></button>
+            <div class="sidebar" id="mySidebar">
+            <img src="images/white-logo.webp" alt="">
+            <ul class="menu">
+                <li><a href="index.html">Home     </a></li>
+                <li><a href="about.html">About Us </a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="blog.html">Blogs     </a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="side-nav">
+                <li class="side-nav-a d-flex">Categories</li>
+                <li>
+                    <input type="text" placeholder="Search Here" class="search-input" >
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </li>
+            </div>
+
+        </div>
+        </div>
+   
+    </header>
+    <section class="banner">
+        <div class="main-container d-flex justify-content-between align-items-center">
+            <div class="find-right-course ">
+                <h4>More than 12180+ courses for you </h4>
+                <h1>Find the right <br> Online Course for you</h1>
+                <button class="btn-rounded btn-primary btn-primary:hover">More Courses <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <container class="popluar-topics d-wrap d-flex flex-direction-column gap align-items-center ">
+        <div class="topics-1 align-items-center justify-content-center">
+            <div class="main-heading">
+                <h4> Browse Categories</h4>
+                <h2>Popluar Topics</h2>
+            </div>
+        </div>
+        <div class="business-container d-flex flex-direction-row ">
+            <div class="business-management business-card">
+                <div class="bm-img">
+                    <img src="./images/business-1.webp" alt="bussiness-management">
+                </div>
+                <h2> Business & management</h2>
+                <p>01 Course</p>
+            </div>
+            <div class="data-science business-card">
+                <div class="dc-img">
+                    <img src="./images/busines-2.webp" alt="">
+                </div>
+                <h2> Data Science & management</h2>
+                <p> 02 course</p>
+            </div>
+            <div class="enivoroment-science business-card">
+                <div class="es-img">
+                    <img src="./images/busines-3.webp" alt="">
+                </div>
+                <h2>enivoroment science </h2>
+                <p> 03 course</p>
+            </div>
+            <div class="learning-management business-card">
+               <div class="lm-img">
+                <img src="./images/busines-4.webp" alt="">
+                <h2> learning management</h2>
+                <p> 04 course</p>
+               </div>
+            </div>
+        </div>
+        <button class="btn-rounded-1 btn-primary-1 btn-primary-1:hover ">Browse More Courses <i class="fa-solid fa-angles-right"></i></button>
+    </container>
+    <div class="our-impressive-courses d-flex align-items-center justify-content-center">
+        <div class="our-left">
+            <img src="./images/courses-img.webp" alt="">
+        </div>
+        <div class="our-right">
+            <h2>Our Impressive Courses Audio, Video, & Live Classess</h2>
+            <p>However, technology and terminology in the field of artificial intelligence and machine learning can evolve rapidly, and new concepts might have emerged since then. I’ll provide an explanation of plugin and learning separately, as they are independent terms in the context of computing and AI.</p>
+            <h4> signature </h4>
+            <button class="btn-rounded btn-primary btn-primary:hover"> University Overview <i class="fa-solid fa-angles-right"></i></button>
+        </div>
+    </div>
+    <div class="theme d-flex align-items-center justify-content-center">
+        <div class="students rating">
+            <h2>8k+</h2>
+            <h4>Students worldwide</h4>     
+        </div>
+        <div class="University rating">
+            <h2>36k+</h2>
+            <h4>University worldwide</h4>
+        </div>
+        <div class="Academic rating">
+            <h2>22k+</h2>
+            <h4>Academic worldwide</h4>
+        </div>
+        <div class="total rating">
+            <h2>59k+</h2>
+            <h4>Total worldwide</h4>
+        </div>
+    </div>
+    <div class="choose-unlimited-options d-flex flex-direction-column gap-2 align-items-center">
+        <div class="feature">
+            <h4>Featured Courses</h4>
+             <h2>Choose Unlimited Options</h2>
+        </div>
+        <div class="unlimited d-flex main-container  ">
+            <div class="enivoromental">
+                <div class="en-img">
+                    <img src="./images/students-c.webp" alt="">
+                </div>
+                <div class="en-para card-para box-shadow">
+                    <button class="card-btn"> Enivoromental science</button>
+                    <h2 class="card-h2">effective classroom management techniques job.</h2>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                     <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                     <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                     <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn"> Enivoromental science</button>
+                    <div class="hover-card-h2">Effective Classroom Management Techniques Job.</div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">Education is the process of acquiring knowledge, skills, values, and…</div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+            <div class="digital">
+                <div class="di-img">
+                    <img src="./images/students-d.webp" alt="">
+                </div>
+                <div class="di-para card-para box-shadow">
+                    <button class="card-btn card-btn-di"> Digital Marketing</button>
+                    <h2 class="card-h2">Inclusive education and special needs teaching </h2>
+                    <div class="di-rating d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i><span class="en-para-s">0 students</span> </h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>  (0)</h4>
+                        <h6 class="h6"> <span class="cut">$49.00</span> <span class="card-price">$65.00</span>   </h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn card-btn-di"> Digital Marketing</button>
+                    <div class="hover-card-h2">Inclusive education and special needs teaching </div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">  Education is the process of acquiring knowledge, skills, values, and…  </div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+            <div class="history">
+                <div class="hi-img">
+                    <img src="./images/students-c.webp" alt="">
+                </div>
+                <div class="hi-para card-para box-shadow">
+                    <button class="card-btn card-btn-hi"> History and Culture</button>
+                    <h2 class="card-h2">Foundations of Early Childhood Education Skill </h2>
+                    <div class="hi-rating d-flex justify-content-between align-items-center">
+                         <h3 class="h4"> <i class="fa-regular fa-user"></i><span class="en-para-s">0 students</span>  </h3>
+                         <h4 class="card-star"><i class="fa-regular fa-star"></i>  (0)</h4>
+                         <h6 class="h6"><span class="card-price">$85.00 </span> <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn card-btn-hi">History and Culture</button>
+                    <div class="hover-card-h2">Foundations of Early Childhood Education Skill </div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">  Education is the process of acquiring knowledge, skills, values, and…  </div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+            <div class="data">
+                <div class="da-img">
+                    <img src="./images/students-d.webp" alt="">
+                </div>
+                <div class="da-para card-para box-shadow">
+                    <button class="card-btn card-btn-da"> Data scienece and anlaytics   </button>
+                    <h2 class="card-h2"> Personal finance financial security learn the thinking</h2>
+                    <div class="da-rating d-flex justify-content-between align-items-center">
+                       <h3 class="h4"> <i class="fa-regular fa-user"></i><span class="en-para-s">0 students</span></h3>
+                       <h4 class="card-star"><i class="fa-regular fa-star"></i>  (0)</h4>
+                       <h6 class="h6"> <span class="cut">$49.00</span> <span class="card-price">$65.00</span> </h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn card-btn-da"> Data scienece and anlaytics</button>
+                    <div class="hover-card-h2">  Personal finance financial security learn the thinking</div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">  Education is the process of acquiring knowledge, skills, values, and…  </div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+            <div class="data-science">
+                <div class="ds-img">
+                    <img src="./images/students-c.webp" alt="">
+                </div>
+                <div class="ds-para card-para box-shadow ">
+                    <button class="card-btn card-btn-ds">Data Scienece and Anlaytics </button>
+                    <h2 class="card-h2">Master Query in a Short Period of learn the skill time. </h2>
+                    <div class="ds-rating d-flex justify-content-between align-items-center">
+                         <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                         <h4 class="card-star"><i class="fa-regular fa-star"></i>  (0)</h4>
+                         <h6 class="h6"><span class="card-price"> $69.00  </span> <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn card-btn-ds"> Data Scienece and Anlaytics</button>
+                    <div class="hover-card-h2">  Master Query in a Short Period of learn the skill time.</div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">  Education is the process of acquiring knowledge, skills, values, and…  </div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+            <div class="cyber">
+                <div class="cy-img">
+                    <img src="./images/students-d.webp" alt="">
+                </div>
+                <div class="cy-para box-shadow card-para">
+                    <button class="card-btn card-btn-cy"> Cybersecurity </button>
+                    <h2 class="card-h2"> Academic Listening and Note taking learn the skills.</h2>
+                    <div class="da-rating d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i>  <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>  (0)</h4>
+                        <h6 class="h6"> <span class="cut">$49.00</span> <span class="card-price">$65.00</span> </h6>
+                    </div>
+                </div>
+                <div class="hover-card en-card card-para box-shadow">
+                    <button class="card-btn card-btn-cy"> Cybersecurity</button>
+                    <div class="hover-card-h2"> Academic Listening and Note taking learn the skills.</div>
+                    <div class="d-flex gap-h-l align-items-center">
+                        <div><span class="icon"><i class="fa-regular fa-clock"></i></span>2 hours</div>
+                        <div><span class="icon fa-solid"><i class="fa-solid fa-book"></i></span>0 Lessones</div>
+                    </div>
+                    <div class="card-para-a">  Education is the process of acquiring knowledge, skills, values, and…  </div>
+                    <div class="en-rating  d-flex justify-content-between align-items-center">
+                        <h3 class="h4"> <i class="fa-regular fa-user"></i> <span class="en-para-s">0 Students</span></h3>
+                        <h4 class="card-star"><i class="fa-regular fa-star"></i>(0) </h4>
+                        <h6 class="h6"><span class="card-price">$49.00</span>  <i class="fa-solid fa-circle-user"></i></h6>
+                    </div>
+                    <button class="btn-primary btn-rounded btn-primary:hover card-btn-hover">Preview this course</button>
+                </div>
+            </div>
+        </div>
+        <button class="btn-primary btn-rounded btn-primary:hover"> View All Courses <i class="fa-solid fa-angles-right"></i></button>
+    </div>
+    <section>
+    <div class="more-blog d-flex gap-2 justify-content-between flex-direction-column align-items-center background-color">
+        <div class="header">
+            <h4>From our blog</h4>
+            <h2>Latest from our Blogs</h2>
+        </div>
+        <div class="mb-main d-flex main-container">
+            <div class="mb-card-1">
+                <div class="mb-card-1-img">
+                    <img src="./images/students-a.webp" alt="students-pic">
+                </div>
+                <div class="mb-card-1-para box-shadow card-para">
+                    <h4 class="date"> <span class="fa-1"><i class="fa-regular fa-calendar"></i></span>  Dec 05, 2024</h4>
+                    <h1 class="card-heading card-heading:hover">Emotional intelligence in Education Building</h1>
+                    <hr class="hr">
+                    <div class="mb-card-1-footer d-flex justify-content-between">   
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-user"></i> </span> Back Theme</h4>
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-message"></i></span> 0 Comments</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-card-2">
+                <div class="mb-card-2-img">
+                    <img src="./images/students-d.webp" alt="students-pic">
+                </div>
+                <div class="mb-card-2-para box-shadow card-para">
+                    <h4 class="date"> <span class="fa-1"><i class="fa-regular fa-calendar"></i></span >Dec 05, 2024 </h4>
+                    <h1 class="card-heading card-heading:hover">Literacy in the Classroom Navigating</h1>
+                    <hr class="hr">
+                    <div class="mb-card-2-footer d-flex justify-content-between">
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-user"></i> </span> Back Theme</h4>
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-message"></i></span> 0 Comments</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-card-3">
+                <div class="mb-card-3-img">
+                    <img src="./images/students-c.webp" alt="students-pic">
+                </div>
+                <div class="mb-card-3-para box-shadow card-para">
+                    <h4 class="date"> <span class="fa-1"><i class="fa-regular fa-calendar"></i></span> Dec 05, 2024</h4>
+                    <h1 class="card-heading card-heading:hover"> Role of Emotional intelligence in</h1>
+                    <hr class="hr">
+                    <div class="mb-card-3-footer d-flex justify-content-between">
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-user"></i> </span> Back Theme</h4>
+                        <h4 class="footer-icon"> <span class="fa-1"><i class="fa-regular fa-message"></i></span> 0 Comments</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class=" btn-more btn-rounded-1 btn-primary-1 btn-primary-1:hover">Brose More Blog  <i class="fa-solid fa-angles-right"></i></button>
+    </div>
+    <section class="end-section justify-content-center align-items-center">
+        <div class="footer d-flex align-items-center justify-content-center">
+            <div class="footer-card-width footer-card-1">
+                <div>
+                    <img src="./images/logo.webp" alt="logo">
+                </div>
+                <p class="footer-para">Welcome to the world of education, Where knowledge unlocks endless possibilities! societies.</p>
+                <div class="footer-h4">Follow us</div>
+                <ul class="social-icon d-flex">
+                    <li class="footer-social-media"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="footer-social-media"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="footer-social-media"><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li class="footer-social-media"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="footer-social-media"><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+            <div class="footer-card-2">
+                <div class="footer-headings footer-set"> About Us</div>
+                <div class="footer-heading-space">About Us</div>
+                <div class="footer-heading-space">Course</div>
+                <div class="footer-heading-space">Events</div>
+                <div class="footer-heading-space"> Profile</div>
+                <div class="footer-heading-space">Contact</div>
+            </div>
+            <div class="footer-card-3">
+                <div class="footer-headings footer-set">Quick links</div>
+                <div class="footer-heading-space">Browse Library</div>
+                <div class="footer-heading-space">Teachers</div>
+                <div class="footer-heading-space">News & Blogs</div>
+                <div class="footer-heading-space">FAQ</div>
+                <div class="footer-heading-space">Tutorials</div>
+            </div>
+            <div class="footer-card-4">
+                <div class="footer-headings">Our Gallery</div>
+                <div class=" gallery d-flex align-items-center">
+                    <div class="gallery-img">
+                        <img src="./images/students-k.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-e.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-f.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-g.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-h.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-i.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-j.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-k.webp" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="./images/students-l.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">    
+        <div class="copyright d-flex align-items-center  ">
+            <h4 class="footer-1">@ 2025 All Copyright Reserved. Developed by BackTheme</h4>
+            <h4 class="footer-1"> <span class="Privacy">Privacy Policy</span>Term Conditions</h4>
+        </div>
+    </section>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("mySidebar");
+            sidebar.classList.toggle("open");
+        }
+        
+        // Close the sidebar if the user clicks outside it
+        document.addEventListener('click', function(event) {
+            var sidebar = document.getElementById("mySidebar");
+            if (!sidebar.contains(event.target) && !event.target.closest("button")) {
+                sidebar.classList.remove("open");
+            }
+        });
+        </script>
+</body>
+</html>
