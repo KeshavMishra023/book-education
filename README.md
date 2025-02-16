@@ -39,11 +39,11 @@ This project is a **fully responsive Book Education Template** built using **HTM
 
 ##  Screenshots
 This is a home page image url => https://github.com/user-attachments/assets/4526ebe6-da90-4347-951e-10c5235b9d9a. <br>
-This is a About Page image url => https://github.com/user-attachments/assets/71b5c9c0-906a-42dd-a09c-967b7bcff4cd.
-This is a Course page image url => https://github.com/user-attachments/assets/87862bec-1135-41c9-ae6f-38a3e70e5eab.
-This is a Blog Page image url => https://github.com/user-attachments/assets/e93ee7da-5bba-4303-9dab-900e75a206ae.
-This is a Contact Page image url => https://github.com/user-attachments/assets/ffff4892-c3fa-4d94-9ecc-9cd61eb876e7.
-This is a Login Page image url => https://github.com/user-attachments/assets/1a941b9e-ba1a-4245-bd1f-f6a1247e8dee.
+This is a About Page image url => https://github.com/user-attachments/assets/71b5c9c0-906a-42dd-a09c-967b7bcff4cd.<br>
+This is a Course page image url => https://github.com/user-attachments/assets/87862bec-1135-41c9-ae6f-38a3e70e5eab.<br>
+This is a Blog Page image url => https://github.com/user-attachments/assets/e93ee7da-5bba-4303-9dab-900e75a206ae. <br>
+This is a Contact Page image url => https://github.com/user-attachments/assets/ffff4892-c3fa-4d94-9ecc-9cd61eb876e7. <br>
+This is a Login Page image url => https://github.com/user-attachments/assets/1a941b9e-ba1a-4245-bd1f-f6a1247e8dee. <br>
 This is Responsive Home Page image url => https://github.com/user-attachments/assets/2a36d22c-0eb6-4b04-aeaa-63beb284381f.
 ##  License
 This project is open-source and available under the [MIT License](LICENSE).
