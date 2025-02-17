@@ -257,10 +257,8 @@ header{
                 height: 250px;
                 width: 250px;
                 border-radius: 50%;
-                /* border: 2px solid var(--primary-color); */
                 display: grid;
                 place-items: center;
-                /* transition: all .3s linear; */
                 img{
                     width: 210px;
                     height: 210px;
@@ -601,15 +599,6 @@ header{
             }
         }
     }
-    /* .toggle-btn{
-        display: block ;
-    } */
-    /* .toggle-btn{
-        display: block;
-        position: absolute;
-        right: 13px;
-        top: 21px;
-    } */
     .main-heading{
         h2{
             font-size: 36px;
@@ -657,7 +646,7 @@ header{
         height: 100vh;
         background-color: #4a90e2;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-        transition: transform 0.5s ease; /* Smooth transition */
+        transition: transform 0.5s ease; 
         padding: 20px 0 20px 15px;
         ul{
             margin: 0;
@@ -686,7 +675,7 @@ header{
         display: none !important    ;
     }
     .sidebar.open {
-        transform: translateX(-390px); /* Sidebar slides in */
+        transform: translateX(-390px); 
     }
     .hero-section{
         background-size: cover;
@@ -733,7 +722,6 @@ header{
             background-size: cover;
             height: 45vh;
             width: 100%;
-            /* margin-bottom: 490px; */
         }
         .campus-card{
             width: 100%;
@@ -892,20 +880,6 @@ header{
     .sidebar.open {
         transform: translateX(-390px); /* Sidebar slides in */
     }
-    /* .toggle-btn{
-        display: block;
-        position: absolute;
-        right: 13px;
-        top: 21px;
-    } */
-    /* .main-heading{
-        h2{
-            font-size: 36px;
-        }
-    } */
-    /* .toggle-btn{
-        display: block ;
-    } */
     header{
         justify-content: space-around;
         background-size:cover;
@@ -1087,7 +1061,6 @@ header{
     }
 }
  /* courses page css  */
- /* courses page css  */
  .courses-cards-container{
     width: 64%;
     display: flex;
@@ -1096,7 +1069,6 @@ header{
     margin: auto;
     padding: 100px 0;
     .card-a{
-        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
         width: 285px;
         .img img{
             width: 100%;
@@ -1201,9 +1173,7 @@ header{
     }
  }
  /* courses page css end */
- /* courses page css end */
 
- /* contact page css start */
  /* contact page css start */
  .form-container{
     width: 67.30%;
@@ -1363,8 +1333,7 @@ header{
     }
  }
 /* contact page css end */
-/* contact page css end */
-/* login page css start */
+
 /* login page css start */
 .main-container{
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
@@ -1445,8 +1414,7 @@ header{
      }
 }
 /* login page css end */
-/* login page css end */
-/* blog page css start */
+
 /* blog page css start */
 .blog-main-container{
     justify-content: center;
@@ -1606,7 +1574,6 @@ header{
         }
         ul li{
             font-size: 16px;
-            /* margin: 15px 0; */
             padding: 10px 0;
             border-bottom: 1px solid rgba(0, 0, 0, 0.04);
         }
