@@ -219,15 +219,6 @@ body{
     display: none;
     top:  0;
     border-radius: 10px;
-    /* transition: all 0.5s ease-in-out; */
-    /* @keyframes up { */
-        /* 0%{ */
-            /* top:20px; */
-        /* } */
-        /* 100%{ */
-            /* top: 0; */
-        /* } */
-    /* } */
 }
 .hover-card-h2{
     font-size: 20px;
@@ -846,9 +837,6 @@ body{
     }
     .toggle-btn{
         display: block;
-        /* position: absolute;
-        right: 13px;
-        top: 21px; */
     }
     header{
         .toogle-btn{
@@ -916,25 +904,6 @@ body{
         .side-nav{
             display: none !important;
         }  
-        
-        /* #toggle-btn:checked ~ nav .menu {
-            display: block !important;
-            position: absolute;
-            z-index: 999999;
-            top: 55px;
-            right: 0px;
-            background: #fff;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            li{
-                padding: 10px 81px 6px 10px;
-                .sub-mainu{
-                    min-width: 15px;
-                    width: 70%; 
-                }
-            }
-        } */
     }
     .banner {
         height: 500px;
@@ -1014,15 +983,6 @@ body{
         width: 100%;
         margin: 50px 0;
         text-align: center;
-        /* .rating{ */
-            /* text-align: center; */
-            /* h2{ */
-                /* font-size: 28px; */
-            /* } */
-            /* h4{ */
-                /* font-size: 14px; */
-            /* } */
-        /* } */
     }
     .choose-unlimited-options{
         flex-wrap: wrap;
@@ -1151,23 +1111,6 @@ body{
                 }
             }  
         }     
-        /* #toggle-btn:checked ~ nav .menu {
-            display: block !important;
-            position: absolute;
-            z-index: 999999;
-            top: 55px;
-            right: 0px;
-            background: #fff;
-            padding: 10px;
-            display: flex;
-            li{
-                padding: 10px 81px 6px 10px;
-                .sub-mainu{
-                    min-width: 15px;
-                    width: 70%; 
-                }
-            }
-        } */
     }
     header{
         .toogle-btn{
